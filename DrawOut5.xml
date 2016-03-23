@@ -636,8 +636,8 @@
       <block type="controls_whileUntil" id="136" inline="false">
         <field name="MODE">UNTIL</field>
         <value name="NUMBER">
-          <block type="sensor_object" id="137">
-            <field name="OBJECT">RIGHTFRONT</field>
+          <block type="sensor_button" id="209">
+            <field name="OBJECT">UP</field>
           </block>
         </value>
         <statement name="DO">
