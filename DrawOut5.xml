@@ -636,7 +636,7 @@
       <block type="controls_whileUntil" id="136" inline="false">
         <field name="MODE">UNTIL</field>
         <value name="NUMBER">
-          <block type="sensor_button" id="209">
+          <block type="sensor_button" id="137">
             <field name="OBJECT">ENTER</field>
           </block>
         </value>
@@ -644,12 +644,12 @@
           <block type="multimedia_playwav" id="138">
             <field name="WAV">beep.w</field>
             <next>
-              <block type="movement_forward" id="148"></block>
+              <block type="movement_forward" id="139"></block>
             </next>
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="189"></block>
+          <block type="movement_stop" id="140"></block>
         </next>
       </block>
     </next>
